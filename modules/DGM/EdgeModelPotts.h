@@ -4,9 +4,9 @@
 
 #include "IEdgeModel.h"
 
-class CPermutohedral;
 
 namespace DirectGraphicalModels {
+	class CPermutohedral;
 	// ================================ Potts Edge Model ================================
 	/**
 	* @brief Potts %Edge Model for dense graphical models

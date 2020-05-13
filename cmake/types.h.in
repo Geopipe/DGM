@@ -25,6 +25,9 @@
 #endif
 #include "opencv2/opencv.hpp"
 
+// DGM lib
+namespace DirectGraphicalModels
+{
 using namespace cv;
 
 #ifdef _WIN32
@@ -65,9 +68,6 @@ template <class T>  T& lvalue_cast(T&& t) { return t; }
 	#define DllExport
 #endif
 
-// DGM lib
-namespace DirectGraphicalModels
-{
 	class IEdgeModel;
 	
 	using   vec_nColor_t	= std::vector<std::pair<Scalar, std::string> >;
